@@ -13,6 +13,12 @@ PyCharm [External documentation](https://www.jetbrains.com/help/pycharm/viewing-
 history -w /dev/stdout
 ```
 
+### Disable AWS Cloud9 managed temporary credentials
+```
+aws cloud9 update-environment  --environment-id $C9_PID --managed-credentials-action DISABLE
+rm -vf ${HOME}/.aws/credentials
+```
+
 ### Archive, tree and diff two projects directories
 Archive
 ```
