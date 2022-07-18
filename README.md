@@ -1,5 +1,15 @@
 # Useful commands, links and queries
 
+### Bash command to perform an operation on multiple AWS CloudFormation stacks
+```
+for stack in $(aws cloudformation describe-stacks --query Stacks[].StackName --output text); do echo $stack; done
+```
+
+### List physical resource IDs of specific resource types in an AWS CloudFormation stack
+```
+aws cloudformation list-stack-resources --stack-name STACK_NAME --query 'StackResourceSummaries[?ResourceType==`RESOURCE_TYPE`].PhysicalResourceId'
+```
+
 ### `cfn_nag` command for `cdk.out` directory
 ```
 cfn_nag_scan --output-format txt --input-path cdk.out/ --template-pattern '..*\.template\.json'
