@@ -82,3 +82,6 @@ https://stackoverflow.com/questions/6442364/running-script-upon-login-mac
 
 ### Simple HTTP request handler
 `python -m SimpleHTTPServer 8000`
+
+### Change macOS font smoothing
+`defaults -currentHost write -g AppleFontSmoothing -int [0,1,2,3]` and restart
