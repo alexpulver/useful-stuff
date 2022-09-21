@@ -18,6 +18,11 @@ cfn_nag_scan --output-format txt --input-path cdk.out/ --template-pattern '..*\.
 ### PyCharm external documentation for AWS CDK
 PyCharm [External documentation](https://www.jetbrains.com/help/pycharm/viewing-reference-information.html#external-docs) => Module Name: `aws_cdk` => URL/Path Pattern: [`https://docs.aws.amazon.com/cdk/api/latest/python/{module.name}/{class.name}.html#{module.name}.{class.name}`](https://docs.aws.amazon.com/cdk/api/latest/python/%7Bmodule.name%7D/%7Bclass.name%7D.html#{module.name}.{class.name)
 
+### `tree` command for AWS CDK project
+```
+tree --dirsfirst --matchdirs -I '.mypy_cache|cdk.out|node_modules|__pycache__|.git|.idea'
+```
+
 ### `history` without numbers
 ```
 history -w /dev/stdout
