@@ -1,4 +1,4 @@
-# Useful commands, links and queries
+# Useful stuff
 
 ### Remove all packages installed by pip
 ```bash
