@@ -8,7 +8,9 @@ pip uninstall -y -r <(pip freeze)
 ```
 
 ### Resolve packaging dependency version conflict between black and safety
+```bash
 pip-compile -P black==22.12.0 --upgrade requirements-dev.in
+```
 
 ### Bash command to perform an operation on multiple AWS CloudFormation stacks
 ```bash
