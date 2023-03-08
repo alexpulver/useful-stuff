@@ -7,6 +7,9 @@
 pip uninstall -y -r <(pip freeze)
 ```
 
+### Resolve packaging dependency version conflict between black and safety
+pip-compile -P black==22.12.0 --upgrade requirements-dev.in
+
 ### Bash command to perform an operation on multiple AWS CloudFormation stacks
 ```bash
 for stack in $(aws cloudformation describe-stacks --query Stacks[].StackName --output text); do echo $stack; done
