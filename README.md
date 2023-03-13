@@ -2,6 +2,8 @@
 
 > Don’t look for a great Idea, find a good Problem to solve.
 
+> Drawing architecture diagrams makes unclear things clear and clear things obvious
+
 ### Remove all packages installed by pip
 ```bash
 pip uninstall -y -r <(pip freeze)
