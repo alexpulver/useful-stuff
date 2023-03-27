@@ -4,6 +4,8 @@
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious
 
+> AWS CDK allows you to code the application's architecture and logic side by side in the same language
+
 ### Remove all packages installed by pip
 ```bash
 pip uninstall -y -r <(pip freeze)
