@@ -1,8 +1,10 @@
 # Useful stuff
 
-> Don’t look for a great Idea, find a good Problem to solve.
+> Don’t look for a great Idea, find a good Problem to solve
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious
+
+> A system is only evolvable if you can easily understand it and you can safely change it ([source](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/))
 
 > AWS CDK allows you to code the application's architecture and logic side by side in the same language
 
