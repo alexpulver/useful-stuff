@@ -13,6 +13,12 @@
 pip uninstall -y -r <(pip freeze)
 ```
 
+### List licenses of Python packages installed with pip
+```bash
+pipx install pip-licenses
+pip-licenses --python /usr/bin/python -nv --output-file licenses.txt
+```
+
 ### Resolve packaging dependency version conflict between black and safety
 ```bash
 pip-compile -P black==22.12.0 --upgrade requirements-dev.in
