@@ -8,6 +8,21 @@
 
 > AWS CDK allows you to code the application's architecture and logic side by side in the same language
 
+### Web application OIDC authentication flow approach
+Client-side design:
+* Store refresh token as HTTP-only secure cookie
+* Store ID token in memory
+
+Client/server flow:
+* Client sends POST request to `/auth/refresh` API
+* If user didn't authenticate yet, client gets `401` response (there is no refresh token cookie), and redirects to `/auth/login` API
+  * After user authenticates, `/auth/login` API sets refresh token cookie, and responds with ID token
+* Client calls APIs with ID token in Authorization header
+* APIs authenticate calls using ID token
+
+Related information:
+* [How to Persist JWT Tokens for Your SaaS Application](https://frontegg.com/guides/how-to-persist-jwt-tokens-for-your-saas-application)
+
 ### Remove all packages installed by pip
 ```bash
 pip uninstall -y -r <(pip freeze)
