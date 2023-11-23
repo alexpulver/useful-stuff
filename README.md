@@ -1,6 +1,9 @@
 # Useful stuff
 
+### Mindset sentences
 > Don’t look for a great Idea, find a good Problem to solve
+
+> Infrastructure libraries (e.g. AWS CDK constructs) provide compositions, not abstractions, if developers own the security and operations of the underlying resources
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious
 
