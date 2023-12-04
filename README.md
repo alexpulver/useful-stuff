@@ -2,14 +2,24 @@
 
 ### Mindset sentences
 > Don’t look for a great Idea, find a good Problem to solve
+> 
+> -- Someone
 
 > Infrastructure libraries (e.g. AWS CDK constructs) provide compositions, not abstractions, if developers own the security and operations of the underlying resources
+> 
+> -- Alex Pulver
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious
+> 
+> -- Alex Pulver
 
-> A system is only evolvable if you can easily understand it and you can safely change it ([source](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/))
+> A system is only evolvable if you can easily understand it and you can safely change it
+>
+> -- Rebecca Parsons ([source](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/))
 
 > AWS CDK allows you to code the application's architecture and logic side by side in the same language
+>
+> -- Alex Pulver
 
 ### Web application OIDC authentication flow approach
 Client-side design:
