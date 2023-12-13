@@ -3,7 +3,7 @@
 ### Mindset sentences
 > Don’t look for a great Idea, find a good Problem to solve (Someone)
 
-> Infrastructure libraries are compositions and not abstractions, because the consumers own security and operations of the underlying resources (Alex Pulver)
+> Infrastructure libraries are compositions and not abstractions, because consumers own security and operations of the underlying resources (Alex Pulver)
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious (Alex Pulver)
 
