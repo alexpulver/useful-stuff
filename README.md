@@ -3,7 +3,9 @@
 ### Mindset sentences
 > Don’t look for a great Idea, find a good Problem to solve (Someone)
 
-> Infrastructure libraries provide compositions and not abstractions, because consumers own security and operations of the underlying resources (Alex Pulver)
+> Abstraction in the cloud: a *service* with higher-level vocabulary that shields from the complexity, security and operations of the underlying implementation (Alex Pulver)
+
+> Infrastructure libraries provide compositions, not abstractions, because consumers own security and operations of the underlying implementation (Alex Pulver)
 
 > Drawing architecture diagrams makes unclear things clear and clear things obvious (Alex Pulver)
 
