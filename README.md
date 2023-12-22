@@ -143,3 +143,15 @@ python -m SimpleHTTPServer 8000
 defaults -currentHost write -g AppleFontSmoothing -int [0,1,2,3]
 ``` 
 and restart
+
+### System design examples
+* URL shortener or TinyURL: https://lnkd.in/gJPWZsX3
+* Social media app like Twitter: https://lnkd.in/guParNhY
+* File sharing service like Dropbox: https://lnkd.in/gnSQ6rAd
+* Video streaming service like Netflix: https://lnkd.in/gnHSyCj8
+* Autocomplete feature of Google: https://lnkd.in/g3VFcaYN
+* Messaging app like WhatsApp: https://lnkd.in/g5zJa_4W
+* Online document editor like Google docs: https://lnkd.in/gBvztEqV
+* Proximity service like Uber: https://lnkd.in/grtPbr6k
+* Hotel booking service like Airbnb: https://lnkd.in/gWjrGwCM
+* Web crawler: https://lnkd.in/gTkfCH8U
