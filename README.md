@@ -11,7 +11,7 @@
 
 > A system is only evolvable if you can easily understand it and you can safely change it ([Rebecca Parsons](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/))
 
-> AWS CDK allows you to code the application's architecture and logic side by side in the same language (Alex Pulver)
+> AWS CDK, Pulumi, Wing, etc. allow you to code the application's architecture, resources configuration and business logic side by side in the same language (Alex Pulver)
 
 ### Web application OIDC authentication flow approach
 Client-side design:
