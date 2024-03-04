@@ -113,9 +113,7 @@ echo 'set completion-ignore-case On' >> ~/.inputrc
 `#:~:text=`
 
 ### Stop iTunes from launching when connecting Bluetooth devices
-https://www.howtogeek.com/274345/stop-itunes-from-launching-when-you-press-play-on-your-macs-keyboard/
-+
-https://stackoverflow.com/questions/6442364/running-script-upon-login-mac
+https://github.com/tombonez/noTunes
 
 ### pyenv plugins
 [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) - manage virtualenvs and conda environments
