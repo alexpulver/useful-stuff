@@ -28,6 +28,11 @@ Client/server flow:
 Related information:
 * [How to Persist JWT Tokens for Your SaaS Application](https://frontegg.com/guides/how-to-persist-jwt-tokens-for-your-saas-application)
 
+### Copy with hidden files to an existing directory
+```bash
+cp -r <source>/. <destination>
+```
+
 ### Remove all packages installed by pip
 ```bash
 pip uninstall -y -r <(pip freeze)
