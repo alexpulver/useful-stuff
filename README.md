@@ -1,18 +1,5 @@
 # Useful stuff
 
-### Mindset sentences
-> Don’t look for a great Idea, find a good Problem to solve (Someone)
-
-> Abstraction in the cloud: a *service* with higher-level vocabulary that shields from the complexity, security and operations of the underlying implementation (Alex Pulver)
-
-> Infrastructure libraries provide compositions, not abstractions, because consumers own security and operations of the underlying implementation (Alex Pulver)
-
-> Drawing architecture diagrams makes unclear things clear and clear things obvious (Alex Pulver)
-
-> A system is only evolvable if you can easily understand it and you can safely change it ([Rebecca Parsons](https://www.infoq.com/podcasts/evolutionary-architecture-evolution/))
-
-> AWS CDK, Pulumi, Wing, etc. allow you to code the application's architecture, resources configuration and business logic side by side in the same language (Alex Pulver)
-
 ### Web application OIDC authentication flow approach
 Client-side design:
 * Store refresh token as HTTP-only secure cookie
