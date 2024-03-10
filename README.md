@@ -15,6 +15,17 @@ Client/server flow:
 Related information:
 * [How to Persist JWT Tokens for Your SaaS Application](https://frontegg.com/guides/how-to-persist-jwt-tokens-for-your-saas-application)
 
+### Insert a hard space (works in Markdown)
+Source: https://stackoverflow.com/a/53112628/1658138
+
+| OS        | Input method                      |
+|-----------| ----------------------------------|
+| macOS     | OPTION+SPACE (ALT+SPACE)          |
+| Linux     | Compose Space Space or AltGr+Space|
+| Windows   | Alt+0+1+6+0                       |
+
+Some text editors use Ctrl+Shift+Space.
+
 ### Copy with hidden files to an existing directory
 ```bash
 cp -r <source>/. <destination>
