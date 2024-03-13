@@ -156,3 +156,12 @@ and restart
 * Proximity service like Uber: https://lnkd.in/grtPbr6k
 * Hotel booking service like Airbnb: https://lnkd.in/gWjrGwCM
 * Web crawler: https://lnkd.in/gTkfCH8U
+
+### GenAI for programmers
+Without GenAI:
+* Coding - 2 hours
+* Debugging - 6 hours
+
+With GenAI:
+* Generate code - 5 minutes
+* Debugging - 24 hours
