@@ -165,3 +165,33 @@ Without GenAI:
 With GenAI:
 * Generate code - 5 minutes
 * Debugging - 24 hours
+
+### Linking strategy, mechanism, tool and architecture
+Cloud automation tools like AWS CDK and Pulumi allow you to implement application’s architecture and domain logic using the same programming language.
+
+**Strategy**
+* Context
+* Objective
+* Mechanism
+* Design decision
+
+**Mechanism**
+* Output **=> Objective**
+* Tool
+* Adoption
+* Inspection
+* Iteration
+* Input
+
+**Tool**
+* Use case **=> Output**
+* Stories and flows
+* Requirements
+* Architecture
+
+**Architecture**
+* Application
+
+**Application**
+* Repositories and pipeline
+* Domain logic
