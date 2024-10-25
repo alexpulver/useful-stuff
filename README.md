@@ -1,5 +1,8 @@
 # Useful stuff
 
+### Development tooling
+* https://difftastic.wilfred.me.uk/
+
 ### Web application OIDC authentication flow approach
 Client-side design:
 * Store refresh token as HTTP-only secure cookie
