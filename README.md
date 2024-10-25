@@ -2,6 +2,8 @@
 
 ### Development tooling
 * https://difftastic.wilfred.me.uk/
+* https://mise.jdx.dev/
+* https://www.jetify.com/devbox
 
 ### Web application OIDC authentication flow approach
 Client-side design:
