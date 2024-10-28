@@ -52,16 +52,21 @@ pip-licenses --python /usr/bin/python -nv --output-file licenses.txt
 pip-compile -P black==22.12.0 --upgrade requirements-dev.in
 ```
 
-### Bash command to perform an operation on multiple AWS CloudFormation stacks
+### AWS CLI commands
+Bash command to perform an operation on multiple AWS CloudFormation stacks:
 ```bash
 for stack in $(aws cloudformation describe-stacks --query Stacks[].StackName --output text); do echo $stack; done
 ```
 
-### List physical resource IDs of specific resource types in an AWS CloudFormation stack
+List physical resource IDs of specific resource types in an AWS CloudFormation stack:
 ```bash
 aws cloudformation list-stack-resources --stack-name STACK_NAME --query 'StackResourceSummaries[?ResourceType==`RESOURCE_TYPE`].PhysicalResourceId'
 ```
 
+List services that support AWS PrivateLink VPC endpoints but do not support VPC endpoint policies:
+```bash
+aws ec2 describe-vpc-endpoint-services --query 'ServiceDetails[?VpcEndpointPolicySupported==`false`].{ServiceName:ServiceName, VpcEndpointPolicySupported:VpcEndpointPolicySupported}' --output table
+```
 ### `cfn_nag` command for `cdk.out` directory
 ```bash
 cfn_nag_scan --output-format txt --input-path cdk.out/ --template-pattern '..*\.template\.json'
