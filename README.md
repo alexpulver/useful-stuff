@@ -20,6 +20,12 @@ Client/server flow:
 Related information:
 * [How to Persist JWT Tokens for Your SaaS Application](https://frontegg.com/guides/how-to-persist-jwt-tokens-for-your-saas-application)
 
+### Disable macOS Sonoma smart emojis picker
+```bash
+sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist emoji_enhancements -dict-add Enabled -bool NO
+```
+Restart
+
 ### Insert a hard space (works in Markdown)
 Source: https://stackoverflow.com/a/53112628/1658138
 
