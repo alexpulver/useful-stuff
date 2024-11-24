@@ -1,0 +1,12 @@
+[
+  {
+    "name": "STDIN",
+    "metadata": {},
+    "status": "PASS",
+    "not_compliant": [],
+    "not_applicable": [],
+    "compliant": [
+      "LAMBDA_CONCURRENCY_CHECK"
+    ]
+  }
+]

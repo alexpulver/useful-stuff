@@ -1,0 +1,50 @@
+[
+  {
+    "name": "STDIN",
+    "metadata": {},
+    "status": "FAIL",
+    "not_compliant": [
+      {
+        "Rule": {
+          "name": "LAMBDA_CONCURRENCY_CHECK",
+          "metadata": {},
+          "messages": {
+            "custom_message": null,
+            "error_message": null
+          },
+          "checks": [
+            {
+              "Clause": {
+                "Binary": {
+                  "context": " %aws_lambda_functions_concurrency[*].Properties.ReservedConcurrentExecutions LESS THAN EQUALS  %max_reserved_concurrency",
+                  "messages": {
+                    "custom_message": "\n    Violation: All AWS Lambda Functions must have concurrent execution limits configured and within allowed range\n    Fix: Set the ReservedConcurrentExecutions property to an integer within allowed range\n  ",
+                    "error_message": "Check was not compliant as property value [Path=/Resources/ComputeLambdaFunctionB5F83B01/Properties/ReservedConcurrentExecutions[L:0,C:417] Value=11] not less than equal to value [Path=/LAMBDA/max_reserved_concurrency[L:2,C:28] Value=10]."
+                  },
+                  "check": {
+                    "Resolved": {
+                      "from": {
+                        "path": "/Resources/ComputeLambdaFunctionB5F83B01/Properties/ReservedConcurrentExecutions",
+                        "value": 11
+                      },
+                      "to": {
+                        "path": "/LAMBDA/max_reserved_concurrency",
+                        "value": 10
+                      },
+                      "comparison": [
+                        "Le",
+                        false
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "not_applicable": [],
+    "compliant": []
+  }
+]
