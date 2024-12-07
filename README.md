@@ -10,6 +10,9 @@
 * https://mise.jdx.dev/
 * https://www.jetify.com/devbox
 
+### Dev/Prod access
+Internet access desktop for development and experimentation with dummy data and access to Git repository and packages. Isolated desktop for testing on production data with access to Git repositories and filtered packages (e.g. using CodeArtifact), allow copy/paste. The developer experience would then be having two desktops open with copy/paste capability (might be able to copy/paste production data, as an accepted risk), moving code between the desktops through Git, and allow-listing packages for the production desktop.
+
 ### Web application OIDC authentication flow approach
 Client-side design:
 * Store refresh token as HTTP-only secure cookie
