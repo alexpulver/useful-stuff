@@ -1,5 +1,10 @@
 # Useful stuff
 
+### Content that doesn't fit inline here
+* [AWS CloudFormation Guard hook with input parameters](aws-cloudformation-guard)
+* [Productivity](productivity.txt)
+* [CTO job description](cto-job-description.md)
+
 ### Development tooling
 * https://difftastic.wilfred.me.uk/
 * https://mise.jdx.dev/
