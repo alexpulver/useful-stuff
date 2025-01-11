@@ -5,6 +5,11 @@
 * [Productivity](productivity.txt)
 * [CTO job description](cto-job-description.md)
 
+### Reclaim disk space used by Docker objects
+```bash
+docker system prune -a --volumes
+```
+
 ### Development tooling
 * https://difftastic.wilfred.me.uk/
 * https://mise.jdx.dev/
