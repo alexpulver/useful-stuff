@@ -199,10 +199,13 @@ With GenAI:
 Cloud automation tools like AWS CDK and Pulumi allow you to implement application’s architecture and domain logic using the same programming language.
 
 **Strategy**
-* Context
-* Objective
-* Mechanism
-* Design decision
+
+| Level            | Description                     | Key Activity          | Details            |
+|------------------|---------------------------------|-----------------------|--------------------|
+| Context          | Why you are creating a strategy | Link to business      |                    |
+| Objective        | What you want to achieve        | Prioritization        |                    |
+| Mechanism        | Common ways to get there        | Translate objectives  |                    |
+| Design Decision  | Trade-offs you are making       | Explain well          |                    |
 
 **Mechanism**
 * Output **=> Objective**
