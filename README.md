@@ -5,6 +5,9 @@
 * [Productivity](productivity.txt)
 * [CTO job description](cto-job-description.md)
 
+### The SWAG estimation method
+SWAG - Scientific Wild-Ass Guess.
+
 ### Reclaim disk space used by Docker objects
 ```bash
 docker system prune -a --volumes
