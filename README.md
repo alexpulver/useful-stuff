@@ -8,6 +8,13 @@
 ### The SWAG estimation method
 SWAG - Scientific Wild-Ass Guess.
 
+### Meeting duration and document length
+* 1-4 pages - 30 minutes
+* Up to 6 pages - 1 hour
+* Dense 6 pager - 1.5 hours
+
+(11pt font using Aptos, Arial, or Calibri)
+
 ### Reclaim disk space used by Docker objects
 ```bash
 docker system prune -a --volumes
